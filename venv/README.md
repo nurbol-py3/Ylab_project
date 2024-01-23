@@ -16,7 +16,11 @@ SQLALCHEMY_DATABASE_URL = "postgresql://user:password@localhost/dbname"
 
 Замените user, password, localhost, dbname на свои реальные данные.
 
-3. Если ошибки с базы данных очистить с помощью команды:
+3. Запуск приложения:
 
-server = postgres = кнопка "запросник" = TRUNCATE TABLE menus CASCADE;
+   uvicorn main:app --reload
+
+4. Если ошибки с базы данных очистить с помощью команды:
+
+pgadmin = server = postgres = кнопка "запросник" = TRUNCATE TABLE menus CASCADE;
 
