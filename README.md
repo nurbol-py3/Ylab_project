@@ -22,4 +22,4 @@ SQLALCHEMY_DATABASE_URL = "postgresql://user:password@localhost/dbname"
 
 4. Если ошибки с базы данных очистить с помощью команды:
 
-server = postgres = кнопка "запросник" = TRUNCATE TABLE menus CASCADE;
+pgadmin = server = postgres = кнопка "запросник" = TRUNCATE TABLE menus CASCADE;
